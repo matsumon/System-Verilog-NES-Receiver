@@ -1,0 +1,2 @@
+I felt like I was done with the keyboard modules prematurely; turns out, they would only ever be able to read one key. This was because that they did not loop back around to 0 after finishing a stream of binary data. This is fixed now.
+-Eric
